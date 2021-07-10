@@ -7,11 +7,11 @@ var pessoa = {
 console.log(pessoa.cidade)
 
 var quadrado = {
-  lados: 4,
-  area(lado){ // abreviação de "area: function(lado)"
+  lados: 4, // variável/propriedade
+  area(lado){ // function/método
     return lado * lado;
   }, 
-  perimetro(lado){
+  perimetro(lado){ // abreviação de "area: function(perimetro)"
     return this.lados * lado;
   },
   cinco(){
