@@ -37,7 +37,7 @@ body{
   display: block;
   padding: 10px;
   margin-right: 10px;
-  color: #edeefa;
+  color: #bdc3ff;
   text-decoration: none;
   font-family: 'IBM Plex Sans', monospace;
   font-weight: bold;
@@ -48,7 +48,7 @@ body{
 
 .menu li a:hover{
   color: rgb(5, 20, 71);
-  background: #edeefa;
+  background: #bdc3ff;
 }
 
 
@@ -185,7 +185,7 @@ body{
 }
 
 .copy p{
-  color: #edeefa;
+  color: #bdc3ff;
   padding: 20px;
   font-family: 'IBM Plex Sans', monospace;
   font-weight: bold;
