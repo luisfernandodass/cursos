@@ -18,3 +18,16 @@ console.log(firstH2.textContent); // Universo
 // Selecione o último p do site
 const getLastp = document.querySelectorAll('p');
 console.log(getLastp[28].innerText); // ou console.log(gestLastp[getLastp.length - 1]);
+
+// using forEach
+
+const imgs = document.querySelectorAll('img');
+
+imgs.forEach(function(item, index, array){ // 3 parâmetros
+  console.log(item, index, array)
+})
+
+// array function
+imgs.forEach((item, index, array) => {
+  console.log(item)
+})
