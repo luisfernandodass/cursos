@@ -1,3 +1,4 @@
+/*
 // Retorne no console todas as imagens do site
 const getImages = document.querySelectorAll('img');
 console.log(getImages); // retorna nodeList com 8 itens
@@ -31,3 +32,4 @@ imgs.forEach(function(item, index, array){ // 3 parâmetros
 imgs.forEach((item, index, array) => {
   console.log(item)
 })
+*/
