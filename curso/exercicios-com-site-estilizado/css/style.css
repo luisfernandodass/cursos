@@ -20,6 +20,14 @@ body{
   grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr; /*4 columns, 1 fração do que sobrar para cada columa das pontas*/
 }
 
+.bg-black{
+  background: rgb(46, 45, 45);
+}
+
+.increase-text{
+  font-size: 110%;
+}
+
 .menu{
   grid-column: 3 / 5; /*pega da linha 3 até a linha 5*/
   margin-top: 2rem; /*rem => unidade relativa de px*/
