@@ -54,6 +54,19 @@ body{
   letter-spacing: .2em;
 }
 
+.new-link{
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  color: #bdc3ff;
+  text-decoration: none;
+  font-family: 'IBM Plex Sans', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .875rem;
+  letter-spacing: .2em;
+}
+
 .menu li a:hover{
   color: rgb(5, 20, 71);
   background: #bdc3ff;
@@ -109,6 +122,7 @@ body{
   height: 360px;
   overflow-y: scroll;
   grid-column: 2;
+  cursor: pointer;
 }
 
 .animais-lista::-webkit-scrollbar{
@@ -145,6 +159,7 @@ body{
   color:  rgb(5, 20, 71);
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .faq-lista dt::before{
@@ -161,6 +176,33 @@ body{
   font-family: Helvetica, Arial;
   margin-left: 1.3rem;
   margin-bottom: .5rem;
+  display: none;
+}
+
+.faq-lista dd.faq-ativo{
+  display: block;
+  animation: showfaq .5s forwards;
+}
+
+@keyframes showfaq{
+  from{
+    opacity: 0;
+    transform: translate3d(0px, 30px, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0);
+  }
+}
+
+.faq-lista dt::after{
+  margin-left: .3rem;
+  content: '▼';
+}
+
+
+.faq-lista dt.faq-ativo::after{
+  content: '▲';
 }
 
 .mapa{
@@ -225,4 +267,35 @@ body{
   .copy{
     margin-bottom: 0px;
   }
+}
+
+.js-tabcontent section{
+  display: none;
+}
+
+.js-tabcontent section.ativo{
+  display: block;
+  animation: show .5s forwards; /*forwards => para animação ficar no estado final*/
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(0px, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
+.js .js-scroll{
+  opacity: 0;
+  transition: 5s;
+  transform: translate3d(-30px, 0, 0);
+}
+
+.js .js-scroll.ativo{
+  opacity: 1;
+  transform: translate3d(0px, 0, 0);
 }
