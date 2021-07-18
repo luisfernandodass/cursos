@@ -1,3 +1,4 @@
+/*
 const sections = document.querySelectorAll(".js-scroll");
 const windowMetade = window.innerHeight * 0.5;
 
@@ -17,3 +18,4 @@ if (sections.length) {
 
   window.addEventListener("scroll", animaScroll);
 }
+*/
