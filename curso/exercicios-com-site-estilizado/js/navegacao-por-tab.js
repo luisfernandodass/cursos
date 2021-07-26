@@ -15,7 +15,7 @@ function initTabNav() {
 
     // Faz um loop por cada li
     tabMenu.forEach((itemMenu, index) => {
-      itemMenu.addEventListener("click", () => {
+      itemMenu.addEventListener("mouseenter", () => {
         activeTab(index);
       });
     });

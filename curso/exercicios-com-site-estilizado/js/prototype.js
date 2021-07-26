@@ -21,7 +21,7 @@ Carro.acelerar // Function
 Carro.acelerar() // Boolean
 Carro.marca.charAt // Function
 Carro.marca.charAt(0) // String
-*/
+
 
 // EXERCICIOS
 // Crie uma função construtora de Pessoas
@@ -91,3 +91,4 @@ if (typeof document.webkitHidden !== "undefined"){ // webkit é implementação 
 } else {
   console.log('Não existe no Firefox')
 }
+*/
