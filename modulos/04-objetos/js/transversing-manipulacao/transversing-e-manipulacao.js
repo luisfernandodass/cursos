@@ -1,4 +1,4 @@
-/*
+
 const h1 = document.querySelector('h1');
 const animaisLista = document.querySelector('.animais-descricao');
 console.log(h1.innerHTML); // retorna apenas o texto
@@ -73,4 +73,3 @@ console.log(dd.innerText)
 // Substitua o conteúdo html de .faq pelo de .animais
 const animais = document.querySelector('.animais')
 faq.outerHTML = animais.outerHTML; // outer => passa a section também, o que ajuda pois já está estilizado
-*/

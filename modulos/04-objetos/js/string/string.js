@@ -1,4 +1,4 @@
-/*
+
 const letra = 'f';
 const nomeCompleto = 'Luis Fernando da Silva Santos';
 console.log(nomeCompleto.includes(letra)); // true
@@ -112,4 +112,3 @@ const str1 = '5';
 console.log(str1.padStart(2, '1'));
 console.log(str1.padEnd(2, '1'));
 console.log(str1.padEnd(5, '1'));
-*/

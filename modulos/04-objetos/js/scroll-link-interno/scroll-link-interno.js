@@ -1,4 +1,4 @@
-/*
+
 function initScrollSuave(){
   const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
@@ -23,4 +23,3 @@ linksInternos.forEach(item => {
 }
 
 initScrollSuave();
-*/

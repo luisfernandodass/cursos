@@ -1,4 +1,4 @@
-/*
+
 const section = document.querySelector('.animais');
 console.log(section.clientHeight);
 
@@ -41,4 +41,3 @@ if(screenBrowser < 720){
   console.log('menu-mobile adicionado')
 }
 // END EXERCISES
-*/

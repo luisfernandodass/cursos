@@ -1,4 +1,4 @@
-/*
+
 const dados = [
   new String("Tipo 1"), // posição 0 do Array
   ["Carro", "Portas", { cor: "Azul", preco: 200 }], // posição 1 do Array
@@ -87,4 +87,3 @@ const carros = ["Ford", "Fiat", "VW", "Honda"];
 const originalArrayCarros = carros.slice();
 carros.pop();
 console.log(originalArrayCarros, carros)
-*/

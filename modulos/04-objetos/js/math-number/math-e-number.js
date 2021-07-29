@@ -1,4 +1,4 @@
-/*
+
 console.log(Number.isInteger(20)) // true
 console.log(Number.isInteger(20.9)) // false
 
@@ -57,4 +57,3 @@ function limparPrecos(){
 }
 
 limparPrecos();
-*/

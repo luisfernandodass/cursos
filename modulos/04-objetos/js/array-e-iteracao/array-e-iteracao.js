@@ -1,4 +1,4 @@
-/*
+
 const li = document.querySelectorAll('li');
 const liArray = Array.from(li);
 
@@ -94,7 +94,7 @@ const onlyTrue = frutas1.filter(frutaTrue => {
 })
 
 console.log(onlyTrue) // (3) ["Banana", "Maça", "Pêra"]
-*/
+
 
 // EXERCICIOS
 // Selecione cada curso e retorne uma array com objetos contendo o título, descricao

@@ -1,4 +1,4 @@
-/*
+
 const carro = {
   marca: 'BMW',
   ano: 2021
@@ -59,7 +59,7 @@ const imc180 = imc.bind(null, 1.80);
 
 // console.log(Math.floor(imc(1.80, 70)))
 console.log(imc180(70))
-*/
+
 
 // EXERCICIOS
 // Retorne a soma total de caracteres dos parágrafos acima 

@@ -1,4 +1,4 @@
-/*
+
 function teste (){
   return '1 + 1;'
 }
@@ -91,4 +91,3 @@ if (typeof document.webkitHidden !== "undefined"){ // webkit é implementação 
 } else {
   console.log('Não existe no Firefox')
 }
-*/

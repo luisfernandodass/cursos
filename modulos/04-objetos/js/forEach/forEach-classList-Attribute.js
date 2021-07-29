@@ -1,4 +1,4 @@
-/*
+
 // START EXERCISES
 // Mostre o texto dos parágrafos no console
 const showP = document.querySelectorAll("p");
@@ -98,4 +98,3 @@ console.log(hrefLink);
 const hrefLinkUpdated = getLinkExternOfMenu[getLinkExternOfMenu.length - 1].setAttribute('href', '#luisfernando.netlifly.app/');
 console.log(getLinkExternOfMenu[getLinkExternOfMenu.length - 1].getAttribute('href'));
 // END EXERCISES
-*/

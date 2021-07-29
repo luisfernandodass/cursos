@@ -1,4 +1,4 @@
-/*
+
 const img = document.querySelector('img');
 
 function callback(event){
@@ -99,4 +99,3 @@ function increaseText(event){
 }
 
 window.addEventListener('keydown', increaseText);
-*/

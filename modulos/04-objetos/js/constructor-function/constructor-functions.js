@@ -1,4 +1,4 @@
-/*
+
 function Carro(marcaAtribuida, precoAtribuido){
   this.marca = precoAtribuido;
   this.preco = marcaAtribuida;
@@ -16,7 +16,7 @@ function Carro2(marca, precoInicial){
 
 const mazda = new Carro2('Mazda', 5000);
 
-/*
+
 const Dom = {
   seletor: 'li',
   element(){
@@ -95,4 +95,3 @@ function DomListas(elSelected, nameClass){
 }
 
 const listaDl = new DomListas('dt', 'faq-ativo');
-*/
