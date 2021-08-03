@@ -20,7 +20,7 @@
   min-width: 300px;
   padding: 40px;
   border: 10px solid #FB5;
-  box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 0 10px #fff;
   position: relative;
 }
 
@@ -80,4 +80,5 @@
   font-family: 'IBM Plex Sans', monospace;
   margin-top: 1rem;
   font-weight: bold;
+  cursor: pointer;
 }

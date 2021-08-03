@@ -1,6 +1,4 @@
-// se for exportar só um, usar o default(padrão)
-
-export default function initScrollSuave() {
+function initScrollSuave() {
   const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
   function scrollToSection(event) {
@@ -22,3 +20,5 @@ export default function initScrollSuave() {
     item.addEventListener('click', scrollToSection);
   })
 }
+
+initScrollSuave();
