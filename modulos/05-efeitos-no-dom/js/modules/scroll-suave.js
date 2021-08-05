@@ -1,4 +1,4 @@
-function initScrollSuave() {
+export default function initScrollSuave() {
   const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
   function scrollToSection(event) {

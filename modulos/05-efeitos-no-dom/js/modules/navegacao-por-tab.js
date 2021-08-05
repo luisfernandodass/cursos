@@ -1,4 +1,4 @@
-function initTabNav() {
+export default function initTabNav() {
   const tabMenu = document.querySelectorAll(".js-tabmenu li");
   const tabContent = document.querySelectorAll(".js-tabcontent section");
   // tabContent[0].classList.add('ativo'); // primeiro item ativo (já fiz isso via DOM)

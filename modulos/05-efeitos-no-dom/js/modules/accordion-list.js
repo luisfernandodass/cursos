@@ -1,4 +1,4 @@
-function initAccordion(){
+export default function initAccordion(){
   // JS NO FAQ
 const accordinList = document.querySelectorAll('.js-accordion dt');
 accordinList[0].classList.add('ativo'); // primeiro item ativo (já fiz isso via DOM)
