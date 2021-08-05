@@ -4,7 +4,7 @@ export default function outsideClick(element, events, callback){
     const outside = 'data-outside';
 
     if(!element.hasAttribute(outside)){
-        events.forEach(userEvent => {
+        element.forEach(userEvent => {
             hmtl.addEventListener(userEvent, handleOutsideClick)
         })
         element.setAttribute(outside, '')
