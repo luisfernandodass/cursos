@@ -31,7 +31,7 @@ body{
   background: #FB5;
 }
 
-.menu ul{
+[data-menu="list"]{
   display: flex;
   flex-wrap: wrap;
   padding: 10px;

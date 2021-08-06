@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./css/modal.css">
   <link rel="stylesheet" href="./css/tooltip.css">
   <link rel="stylesheet" href="./css/dropdown-menu.css">
+  <link rel="stylesheet" href="./css/menu-mobile.css">
   <title>Animais fantásticos</title>
 </head>
 
@@ -25,7 +26,8 @@
   <div class="grid-container">
 
     <nav class="menu js-menu">
-      <ul>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
         <li><a href="#animais">Animais</a></li>
         <li data-dropdown>
           <a href="sobre.html">Sobre</a>

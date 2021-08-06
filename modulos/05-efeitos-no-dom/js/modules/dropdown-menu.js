@@ -7,15 +7,14 @@ export default function initDropdown() {
     dropdownMenus.forEach(menu => {
         ['touchstart', 'click'].forEach(userEvent => {
             menu.addEventListener(userEvent, handleClick);
-        })
-    })
+        });
+    });
 
     function handleClick(e) {
         e.preventDefault();
-        this.classList.toggle('active');
-        outsideClick(this, () => {
+        this.classList.add('active');
+        outsideClick(this,  ['touchstart', 'click'], () => {
             this.classList.remove('active');
-        })
-    }
+        });
+    };
 }
-initDropdown();

@@ -2,19 +2,18 @@
 export default function outsideClick(element, events, callback){
     const hmtl = document.documentElement;
     const outside = 'data-outside';
-
-    if(!element.hasAttribute(outside)){
-        element.forEach(userEvent => {
+    if(element.hasAttribute('[data-outside]') === false){
+        events.forEach(userEvent => {
             hmtl.addEventListener(userEvent, handleOutsideClick)
-        })
-        element.setAttribute(outside, '')
-
+        });
+        element.setAttribute("data-outside", '');
     }
+    
     function handleOutsideClick(e){
         if(!element.contains(e.target)){
-            element.removeAttribute(outside)
+            element.removeAttribute("data-outside")
             events.forEach(userEvent => {
-                hmtl.removeEventListener(userEvent, handleOutsideClick)
+                hmtl.removeEventListener(userEvent, handleOutsideClick);
             })
             callback();
         }
