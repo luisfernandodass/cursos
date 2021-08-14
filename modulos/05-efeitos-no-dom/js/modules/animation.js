@@ -6,11 +6,12 @@ export default function initAnimationScroll() {
     function animaScroll() {
       sections.forEach((item) => {
         const sectionTop = item.getBoundingClientRect().top;
-        //console.log(sectionTop) // 10.6466
-        //console.log(Math.floor(sectionTop)) // 10
+      
         const isSectionVisible = sectionTop - windowMetade < 0;
         if (isSectionVisible) {
           item.classList.add("ativo");
+        } else if(item.classList.contains("ativo")) {
+          item.classList.remove("ativo");
         }
       });
     }
