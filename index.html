@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,400;1,400&family=Playfair+Display+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="stylesheet" href="./public/css/dropdown-menu.css" />
+    <link rel="stylesheet" href="./public/css/modal.css" />
+    <link rel="stylesheet" href="./public/css/tooltip.css" />
+    <link rel="stylesheet" href="./public/css/dropdown-menu.css" />
+    <link rel="stylesheet" href="./public/css/menu-mobile.css" />
+    <link rel="stylesheet" href="./public/css/numero.css" />
+    <title>Animais fantásticos</title>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <nav class="menu js-menu">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <ul data-menu="list" id="menu">
+          <li><a href="#animais">Animais</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a href="empresa.html">A Empresa</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="socios.html">Sócios</a></li>
+              <li><a href="investidores.html">Investidores</a></li>
+            </ul>
+          </li>
+          <li><a href="#faq">Faq</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a data-modal="abrir" href="login.html">Login →</a></li>
+        </ul>
+      </nav>
+      <section
+        class="grid-section animais js-scroll"
+        id="animais"
+        data-texto="teste"
+      >
+        <h1 class="titulo">Animais fantásticos</h1>
+        <ul class="animais-lista js-tabmenu">
+          <li>
+            <img src="./public/img/imagem1.jpg" />
+          </li>
+          <li>
+            <img src="./public/img/imagem2.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./public/img/imagem3.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./public/img/imagem4.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./public/img/imagem5.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./public/img/imagem6.jpg" alt="" />
+          </li>
+          <li>
+            <img src="./public/img/imagem7.jpg" alt="" />
+          </li>
+        </ul>
+
+        <div class="animais-descricao js-tabcontent">
+          <section class="ativo">
+            <h2>Universo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+          </section>
+          <section>
+            <h2>Cidade</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+          </section>
+          <section>
+            <h2>Animais</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+          </section>
+          <section>
+            <h2>Tempestade</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+          </section>
+          <section>
+            <h2>Vulcão</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+          </section>
+          <section>
+            <h2>Tornado</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+          </section>
+          <section>
+            <h2>Humanos</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+              eaque!
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="grid-section faq js-scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <!--Abaixo para criar uma lista com perguntas e respostas-->
+        <dl class="faq-lista js-accordion">
+          <!--dl significa definition list-->
+          <dt>
+            <!---dt significa definition term-->
+            Quantos anos o universo tem?
+          </dt>
+          <dd>
+            <!--dd significa definition description-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            perferendis?
+          </dd>
+
+          <dt>
+            <!---dt significa definition term-->
+            Quantos anos o planeta terra tem?
+          </dt>
+          <dd>
+            <!--dd significa definition description-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            perferendis?
+          </dd>
+
+          <dt>
+            <!---dt significa definition term-->
+            Qual a diferença?
+          </dt>
+          <dd>
+            <!--dd significa definition description-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            perferendis?
+          </dd>
+
+          <dt>
+            <!---dt significa definition term-->
+            Como proteger?
+          </dt>
+          <dd>
+            <!--dd significa definition description-->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+            perferendis?
+          </dd>
+        </dl>
+      </section>
+
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">Números</h1>
+        <div class="numeros-grid">
+         
+        </div>
+      </section>
+
+      <section class="grid-section contato js-scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div
+          class="mapa"
+          data-tooltip
+          aria-label="Endereço próximo ao estacionamento"
+        >
+          <img src="./public/img/imagem7.jpg" alt="" />
+        </div>
+        <ul class="dados">
+          <!----aria-label é p/ o leitor de tela, melhorar a acessibilidade-->
+          <li class="opa">contato@origamid.com</li>
+          <li>(11) 95122-8977</li>
+          <li>Rua Boa Vista</li>
+          <li>Rua três da quitanda</li>
+          <li>Doe <span class="btc-preco" style="background-color: rgb(255, 238, 0); padding: .1rem; font-weight: 700;"></span> bitcoins para nos ajudar</li>
+          <li data-semana="1, 2, 3, 4, 5" data-horario="8,18">Seg à Sex das 8h as 18h</li>
+        </ul>
+      </section>
+
+      <footer class="copy js-scroll">
+        <p>Todos os direitos reservados</p>
+      </footer>
+    </div>
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar">X</button>
+        <form action="">
+          <label for="email">E-mail</label>
+          <input type="text" for="email" id="email" />
+          <label for="senha">Senha</label>
+          <input type="password" for="senha" id="senha" />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+
+    <script type="module" src="./public/js/script.js"></script>
+  </body>
+</html>
