@@ -10,3 +10,8 @@ docker container inspect 02a37aefb899
 docker container stats
 
 docker container logs -f 02a37aefb899
+
+- remove container
+docker container stop 02a37aefb899
+
+docker container rm 02a37aefb899
